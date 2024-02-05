@@ -1,6 +1,12 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
+let playerState = 'idle'
+const dropdown = document.getElementById('animations');
+dropdown.addEventListener('change', (e) => {
+  playerState = e.target.value;
+});
+
 const CANVAS_WIDTH = canvas.width = 600;
 const CANVAS_HEIGHT = canvas.height = 600;
 const SPRITE_WIDTH = 6876;
@@ -8,7 +14,6 @@ const SPRITE_HEIGHT = 5230;
 
 const playerImage = new Image();
 playerImage.src = 'shadow_dog.png';
-const playerState = 'run'
 
 const spriteWidth = SPRITE_WIDTH / 12;
 const spriteHeight = SPRITE_HEIGHT / 10;

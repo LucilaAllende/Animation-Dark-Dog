@@ -7,6 +7,10 @@ Este proyecto ejemplifica la implementación de animaciones de sprites en juegos
 - **Selección de Animaciones:** Utiliza un menú desplegable para seleccionar diferentes estados de animación del jugador.
 - **Configuración de Animaciones:** Configura fácilmente diferentes animaciones para el jugador cambiando una variable.
 
+## Demostración en GIF
+
+![GIF Demo](animation_dark_dog.gif)
+
 ## Instrucciones de Uso
 
 1. Clona o descarga el repositorio.

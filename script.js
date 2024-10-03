@@ -13,7 +13,7 @@ const SPRITE_WIDTH = 6876;
 const SPRITE_HEIGHT = 5230;
 
 const playerImage = new Image();
-playerImage.src = 'shadow_dog.png';
+playerImage.src = './shadow_dog.png';
 
 const spriteWidth = SPRITE_WIDTH / 12;
 const spriteHeight = SPRITE_HEIGHT / 10;
